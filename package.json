@@ -1,6 +1,11 @@
 {
-  "name": "svelte-app",
+  "name": "castilhos.dev",
   "version": "1.0.0",
+  "author": {
+    "email": "henrique@castilhos.dev",
+    "name": "Henrique de Castilhos",
+    "url": "https://castilhos.dev"
+  },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
