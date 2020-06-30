@@ -2,6 +2,8 @@
   import LinkedIn from "./components/linkedin.svelte";
   import Github from "./components/github.svelte";
   import Mail from "./components/mail.svelte";
+
+  const name = "Henrique de Castilhos"
 </script>
 
 <style>
@@ -63,9 +65,7 @@
 
 <main>
   <h1>
-    Hello, I'm
-    <span class="name">Henrique de Castilhos</span>
-    .
+    Hello, I'm <span class="name">{name}</span>.
   </h1>
 
   <img
