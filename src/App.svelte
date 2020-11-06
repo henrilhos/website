@@ -46,6 +46,10 @@
     justify-content: center;
   }
 
+  ul {
+    padding:0;
+  }
+
   li {
     margin: 0.5em;
 
